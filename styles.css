@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+body.light {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+body.dark {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+header {
+    background-image: url('https://i.pinimg.com/originals/79/99/e4/7999e451d14423145f36e3b084cefcaf.png'); /* Cambia la ruta a la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el área */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Cambia el color del texto para que sea legible */
+    padding: 180px; /* Agrega un poco de padding */
+    text-align: center; /* Centra el texto */
+}
+
+
+button#theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+button {
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+#comentarios {
+    margin-top: 20px;
+}
+
+#comentario {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#submit-comment {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.transferencias {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.transferencias th, .transferencias td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.transferencias th {
+    background-color: #007BFF;
+    color: rgb(12, 12, 12);
+}
+
+.transferencias tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.transferencias tr:hover {
+    background-color: #007BFF;
+}
+
+.transferencias td {
+    font-size: 14px;
+}
+
